@@ -19,13 +19,13 @@ export default function Home() {
   return (
     <main>
       <header className="nav wrap">
-        <a className="brand" href="#inicio" aria-label="Fisioterapeuta Li, inicio"><span>li</span> Fisioterapeuta CODE MASTERS</a>
+        <a className="brand" href="#inicio" aria-label="Fisioterapeuta Li, inicio"><span>lii</span> Fisioterapeuta </a>
         <nav aria-label="Navegación principal">
           <a href="#nosotros">Acerca de mí</a>
           <a href="#servicios">Servicios</a>
           <a href="#reservas">Reservas</a>
         </nav>
-        <a className="nav-cta" href="#reservas">Agenda tu cita <span>↗</span></a>
+        <a className="nav-cta" href="/acceso">Acceso al Dashboard <span>↗</span></a>
       </header>
 
       <section id="inicio" className="hero wrap">
