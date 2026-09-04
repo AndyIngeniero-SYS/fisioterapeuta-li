@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Fisioterapeuta Li | Movimiento que transforma",
+  title: "Fisioterapeuta Lii | Movimiento que transforma",
   description: "Fisioterapia personalizada para recuperar bienestar, confianza y movimiento.",
 };
 

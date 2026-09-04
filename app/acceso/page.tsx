@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { FormEvent, useState } from "react";
 import { useRouter } from "next/navigation";
 
@@ -33,7 +34,10 @@ export default function AccessPage() {
     <main className="access-page">
       <section className="access-intro">
         <Link className="brand" href="/">
-          <span>Li</span> Fisioterapeuta Li
+          <span className="brand-icon">
+            <Image src="/images/Logo.jpg" alt="Logo La Fisioterapeuta Li" width={34} height={34} />
+          </span>
+          La Fisioterapeuta Li
         </Link>
 
         <div className="access-message">
@@ -53,7 +57,7 @@ export default function AccessPage() {
       <section className="access-form-area">
         <form className="access-form" onSubmit={handleSubmit}>
           <p className="eyebrow">ACCESO PROFESIONAL</p>
-          <h2>Bienvenida de nuevo.</h2>
+          <h2>Bienvenida de nuevo Lina.</h2>
           <p className="form-description">
             Ingresa tus datos para acceder al panel administrativo.
           </p>
